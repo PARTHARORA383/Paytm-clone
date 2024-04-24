@@ -40,7 +40,7 @@ return <div className=" flex justify-center items-center h-screen ">
        console.log("Invalid Token")
       }
       
-    const Transfermoney = await fetch("http://localhost:3000/api/v1/account/transfer" , {
+    const Transfermoney = await fetch("https://paytm-clone-1-ppmo.onrender.com/api/v1/account/transfer" , {
       method : "POST",
       headers : {
         "Content-Type": "application/json",

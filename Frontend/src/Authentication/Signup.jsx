@@ -47,7 +47,7 @@ const [signedup ,setSignedup] = useState(null);
           <div className="bg-green-700 hover:bg-green-600  underline-offset-4 text-gray-200 border-gray-300 rounded-md min-w-72  text-center">
 
         <Button onClick={async()=>{
-          const response = await fetch("http://localhost:3000/api/v1/user/signup",{method : "POST",
+          const response = await fetch("https://paytm-clone-1-ppmo.onrender.com/api/v1/user/signup",{method : "POST",
           headers : {"Content-type": "application/json "
           
         },

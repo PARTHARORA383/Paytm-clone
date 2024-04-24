@@ -12,7 +12,7 @@ useEffect(()=>{
 
   const fetchData = async ()=>{
     try{
-      const response  = await fetch("http://localhost:3000/api/v1/user/bulk?filter="+ filter , {method : "GET" , headers:{
+      const response  = await fetch("https://paytm-clone-1-ppmo.onrender.com/api/v1/user/bulk?filter="+ filter , {method : "GET" , headers:{
         "Content-type": "application/json"
       }});
       if(!response.ok){
