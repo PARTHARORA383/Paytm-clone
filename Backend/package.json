@@ -7,5 +7,8 @@
     "nodemon": "^3.1.0",
     "Router": "^2.1.0",
     "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "vite": "^5.2.10"
   }
 }
